@@ -3,7 +3,6 @@ repos:
     rev: v3.2.0
     hooks:
       - id: trailing-whitespace
-      - id: end-of-file-fixer
       - id: check-yaml
       - id: check-added-large-files
 
@@ -11,18 +10,21 @@ repos:
     hooks:
       - id: rustfmt
         name: Rustfmt
-        entry: cargo fmt --all -- --check
+        entry: cargo fmt --all
         language: system
+        pass_filenames: false
         types: [rust]
 
       - id: clippy
         name: Clippy
         entry: cargo clippy --all-targets --all-features -- -D warnings
         language: system
+        pass_filenames: false
         types: [rust]
 
       - id: tests
         name: Cargo tests
         entry: cargo test
         language: system
+        pass_filenames: false
         types: [rust]

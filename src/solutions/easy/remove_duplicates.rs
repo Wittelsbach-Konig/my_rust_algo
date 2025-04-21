@@ -1,5 +1,4 @@
-
-pub fn remove_duplicates_simple(nums: &mut Vec<i32>) -> i32 {
+pub fn remove_duplicates_simple(nums: &mut [i32]) -> i32 {
     let mut k: usize = 1;
     let nums_size = nums.len();
     for i in 1..nums_size {

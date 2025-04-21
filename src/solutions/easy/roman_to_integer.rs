@@ -1,7 +1,7 @@
 pub static MAX: i16 = 3999;
 pub static MIN: i16 = 1;
 
-static ROMAN_PAIRS: &'static [(i16, &'static str)] = &[
+static ROMAN_PAIRS: &[(i16, &str)] = &[
     (1000, "M"),
     (900, "CM"),
     (500, "D"),
@@ -17,7 +17,7 @@ static ROMAN_PAIRS: &'static [(i16, &'static str)] = &[
     (1, "I"),
 ];
 
-static ROMAN_MAP: fn(&char) -> Option<i16> = |&c: &char| -> Option<i16> {
+fn roman_map(c: &char) -> Option<i16> {
     match c {
         'I' => Some(1),
         'V' => Some(5),
@@ -28,17 +28,13 @@ static ROMAN_MAP: fn(&char) -> Option<i16> = |&c: &char| -> Option<i16> {
         'M' => Some(1000),
         _ => None,
     }
-};
+}
 
 pub fn roman_to_int(s: String) -> Option<i16> {
     let mut result = 0;
     let mut prev_value = 0;
     for ch in s.chars().rev() {
-        let val_opt = ROMAN_MAP(&ch);
-        if val_opt.is_none() {
-            return None;
-        }
-        let value = val_opt.unwrap();
+        let value = roman_map(&ch)?;
         if value < prev_value {
             result -= value;
         } else {
