@@ -1,3 +1,4 @@
+pub mod armstrong_numbers;
 pub mod palindrome_number;
 pub mod remove_duplicates;
 pub mod roman_to_integer;
