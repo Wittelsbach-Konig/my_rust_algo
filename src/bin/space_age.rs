@@ -4,5 +4,5 @@ fn main() {
     let seconds = 1_000_000_000;
     let duration = Duration::from(seconds);
     let output = Earth::years_during(&duration);
-    println!("{}", output);
+    println!("{output}");
 }
