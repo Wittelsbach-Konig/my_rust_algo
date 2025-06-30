@@ -5,7 +5,7 @@ use my_rust_algo::solutions::easy::remove_duplicates::{
 fn main() {
     let mut nums = vec![1, 1, 1, 2, 2, 3];
     remove_duplicates_simple(&mut nums);
-    println!("{:?}", nums);
+    println!("{nums:?}");
     remove_duplicates_vec_approach(&mut nums);
-    println!("{:?}", nums);
+    println!("{nums:?}");
 }
