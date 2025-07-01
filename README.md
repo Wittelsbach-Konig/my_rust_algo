@@ -1,5 +1,7 @@
 # Descriptions
 
+[![Rust CI](https://github.com//Wittelsbach-Konig/my_rust_algo/actions/workflows/rust.yml/badge.svg)](https://github.com//Wittelsbach-Konig/my_rust_algo/actions/workflows/rust.yml)
+
 Leet code and etc., solutions in Rust language.
 
 ## Prerequirements
