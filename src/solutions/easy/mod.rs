@@ -1,6 +1,9 @@
 pub mod armstrong_numbers;
+pub mod difference_of_squares;
+pub mod grains;
 pub mod nth_prime;
 pub mod palindrome_number;
+pub mod prime_factors;
 pub mod remove_duplicates;
 pub mod roman_to_integer;
 pub mod two_sum;

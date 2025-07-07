@@ -1,5 +1,9 @@
 # Release notes
 
+## 1.1.2
+
+- Added EASY prime_factors, difference_of_squares and grains solution
+
 ## 1.1.1
 
 - Removed unused unit return type
