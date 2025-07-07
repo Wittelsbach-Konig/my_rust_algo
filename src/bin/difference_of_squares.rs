@@ -10,5 +10,5 @@ fn main() {
     }
 
     let elapsed = now.elapsed();
-    println!("Time elapsed: {:?}", elapsed);
+    println!("Time elapsed: {elapsed:?}");
 }
