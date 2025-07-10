@@ -1,5 +1,9 @@
 # Release notes
 
+## 1.1.4
+
+- Added EASY kindergarten_garden, series, collatz_conjecture
+
 ## 1.1.3
 
 - Added EASY leap_year, sum_of_multiples, high_scores and MEDIUM binary_search

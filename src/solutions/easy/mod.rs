@@ -1,12 +1,15 @@
 pub mod armstrong_numbers;
+pub mod collatz_conjecture;
 pub mod difference_of_squares;
 pub mod grains;
 pub mod high_scores;
+pub mod kindergarten_garden;
 pub mod leap_year;
 pub mod nth_prime;
 pub mod palindrome_number;
 pub mod prime_factors;
 pub mod remove_duplicates;
 pub mod roman_to_integer;
+pub mod series;
 pub mod sum_of_multiples;
 pub mod two_sum;
