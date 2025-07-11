@@ -1,5 +1,9 @@
 # Release notes
 
+## 1.1.5
+
+- Added MEDIUM luhn solution
+
 ## 1.1.4
 
 - Added EASY kindergarten_garden, series, collatz_conjecture
