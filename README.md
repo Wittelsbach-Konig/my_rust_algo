@@ -6,17 +6,7 @@ Leet code and etc., solutions in Rust language.
 
 ## Prerequirements
 
-You need to install python in order to use `pre-commit`:
-
-```bash
-pip install pre-commit
-```
-
-Then you have installed `pre-commit`:
-
-```bash
-pre-commit install
-```
+Install Rust and Cargo, the package manager for Rust - <https://www.rust-lang.org/learn/get-started>.
 
 ## Usage
 
@@ -30,4 +20,10 @@ To run code, for example, roman conversion to integer:
 
 ```bash
 cargo run --bin roman_to_integer
+```
+
+Run tests:
+
+```bash
+cargo test
 ```
