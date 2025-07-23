@@ -2,6 +2,7 @@ pub mod armstrong_numbers;
 pub mod bottle_song;
 pub mod collatz_conjecture;
 pub mod difference_of_squares;
+pub mod eliuds_eggs;
 pub mod grains;
 pub mod high_scores;
 pub mod kindergarten_garden;
