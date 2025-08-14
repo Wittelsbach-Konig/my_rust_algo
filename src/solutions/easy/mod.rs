@@ -1,8 +1,10 @@
 pub mod armstrong_numbers;
+pub mod bob;
 pub mod bottle_song;
 pub mod collatz_conjecture;
 pub mod difference_of_squares;
 pub mod eliuds_eggs;
+pub mod etl;
 pub mod grains;
 pub mod high_scores;
 pub mod kindergarten_garden;
@@ -16,4 +18,3 @@ pub mod roman_to_integer;
 pub mod series;
 pub mod sum_of_multiples;
 pub mod two_sum;
-pub mod etl;
