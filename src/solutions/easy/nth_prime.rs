@@ -15,7 +15,7 @@ fn is_prime(n: u32) -> bool {
         0 | 1 => false,
         2 => true,
         n if n & 1 == 0 => false,
-        _ => (3..=n.isqrt()).step_by(2).all(|i| n % i != 0),
+        _ => (3..=n.isqrt()).step_by(2).all(|i| !n.is_multiple_of(i)),
     }
 }
 

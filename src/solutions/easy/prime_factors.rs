@@ -7,7 +7,7 @@ pub fn factors(n: u64) -> Vec<u64> {
         _n /= 2;
     }
     for i in (3..=_n.isqrt()).step_by(2) {
-        while _n % i == 0 {
+        while _n.is_multiple_of(i) {
             factors.push(i);
             _n /= i;
         }
