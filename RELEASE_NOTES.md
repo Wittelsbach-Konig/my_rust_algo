@@ -1,5 +1,9 @@
 # Release notes
 
+## 1.1.6
+
+- Added EASY matching_brackets solution
+
 ## 1.1.5
 
 - Added MEDIUM luhn solution

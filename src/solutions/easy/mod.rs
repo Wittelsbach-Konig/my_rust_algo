@@ -9,6 +9,7 @@ pub mod grains;
 pub mod high_scores;
 pub mod kindergarten_garden;
 pub mod leap_year;
+pub mod matching_brackets;
 pub mod nth_prime;
 pub mod palindrome_number;
 pub mod prime_factors;
